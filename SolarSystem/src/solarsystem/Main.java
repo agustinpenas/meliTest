@@ -10,8 +10,7 @@ public class Main {
 
 
 	public static void main(String[] args) {
-		
-		
+
 		HashMap<Weather, LinkedList<Period>> weatherMap = new HashMap<Weather, LinkedList<Period>>();
 		for(Weather weather : Weather.values()) {
 			weatherMap.put(weather, new LinkedList<Period>());

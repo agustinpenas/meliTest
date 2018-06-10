@@ -13,6 +13,12 @@ public class SolarSystem {
 		betasoides = new Planet("Betasoid", 2000, -3);
 	}
 	
+	public void setDate(int date) {
+		vulcan.getLocation().setTheta(vulcan.getAngularVelocity()*date);
+		ferengis.getLocation().setTheta(ferengis.getAngularVelocity()*date);
+		betasoides.getLocation().setTheta(betasoides.getAngularVelocity()*date);
+	}
+	
 	public void newDay() {
 		vulcan.nextDay();
 		ferengis.nextDay();

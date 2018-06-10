@@ -19,5 +19,8 @@ public class Planet {
 		return location;
 	}
 	
+	public int getAngularVelocity() {
+		return angularVelocity;
+	}
 	
 }

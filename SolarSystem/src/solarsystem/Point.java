@@ -26,6 +26,10 @@ public class Point {
 		return theta;
 	}
 	
+	public void setTheta(double theta) {
+		this.theta = theta;
+	}
+	
 	public void movePoint(double angle) {
 		this.theta += angle;
 	}
